@@ -72,8 +72,8 @@
 
   <script>
     const prod = document.getElementById("d1");
-
-     fetch("https://fakestoreapi.com/products")
+      
+    fetch("https://fakestoreapi.com/products")
       .then(res => res.json())
       .then(products => {
         products.forEach(product => {
@@ -91,7 +91,6 @@
         console.error("Error fetching products:", err);
       });
   </script>
-
 </body>
 </html>
 
